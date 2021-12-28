@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-transform: capitalize;
+    font-family: 'Poppins', sans-serif;
+    
+    
+}
+.heading{
+    display: flex;
+background-color: #603e95;
+justify-content: center;
+height: 20%;
+align-items: center;
+color: #fff;
+}
+
+.questionarea{
+    display: flex;
+    height: 25%;
+    max-height: 35%;
+    background-color: #009da1;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.optionarea{
+    display: flex;
+    flex-direction: column;
+    height: 30%;
+    justify-content: center;
+    align-items: center;
+    background-color: #009da1;
+    /* background-color: #fac22b; */
+    align-items: center;
+    color: rgb(255, 255, 255);
+}

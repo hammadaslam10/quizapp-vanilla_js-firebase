@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-database.js"></script>
+</head>
+<body  >
+<div class="loginheading">
+<h1 id="ab">quiz app</h1>
+</div>
+<div class="questionarea">
+</div>
+<div class="data_area">
+    <form>
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" placeholder="Your name..">
+    
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname"  placeholder="Your last name..">
+    
+       <label for="age">age</label>
+       <input type="text" id="age"  placeholder="your age">
+      
+      </form>
+</div>
+
+</div>
+<div class="wrapper" >
+    <button class="next"  >
+      <span id="submission" onclick="verify()">login</span>
+      <div class="success">
+      <svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"  viewBox="0 0 29.756 29.756" style="enable-background:new 0 0 29.756 29.756;" xml:space="preserve">
+        
+      <path d="M29.049,5.009L28.19,4.151c-0.943-0.945-2.488-0.945-3.434,0L10.172,18.737l-5.175-5.173   c-0.943-0.944-2.489-0.944-3.432,0.001l-0.858,0.857c-0.943,0.944-0.943,2.489,0,3.433l7.744,7.752   c0.944,0.943,2.489,0.943,3.433,0L29.049,8.442C29.991,7.498,29.991,5.953,29.049,5.009z"/>
+   </svg>
+        </div>
+    </button>
+  </div>
+  <footer>
+    
+    <!-- <div id="stopwatch">
+        
+        00:00:00
+    </div>
+     -->
+<!-- 
+    <ul id="buttons">
+        <li><button onclick="startTimer()">Start</button></li>
+        <li><button onclick="stopTimer()">Stop</button></li>
+
+        <li><button onclick="resetTimer()">Reset</button></li>
+    </ul> -->
+   
+</footer>
+<script src="./app.js"></script>
+</body>
+
+</html>
